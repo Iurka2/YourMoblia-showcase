@@ -107,11 +107,11 @@ style: {
 
 
 <div className={styles.some}>
-  <a href="https://www.facebook.com/IIUM-497430033789824" target="_blank">
+  <a href="https://www.facebook.com/IIUM-497430033789824" target="_blank" rel="noreferrer">
   <p className={styles.face}>Faceboock</p>
   </a>
 
-  <a href="https://wa.me/+40729359925" target="_blank" >
+  <a href="https://wa.me/+40729359925" target="_blank" rel="noreferrer">
   <p className={styles.whats}>WhatsApp</p>
   </a>
 
