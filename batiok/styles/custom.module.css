@@ -1,0 +1,61 @@
+
+.title{
+  font-size: 4.25vw;
+
+  font-family: "Gambarino", sans-serif;
+  letter-spacing: 3px;
+
+}
+
+.important_text{
+  color: #A57F60;
+
+}
+
+.estetic{
+  color: #A57F60;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_text{
+  align-self: flex-end;
+  font-size: 1.7vh;
+}
+
+.top_text_container{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+align-items: flex-start;
+
+}
+
+.top_img{
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+
+@media screen and (max-width: 850px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .top_text_container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  align-items: flex-start;
+  
+  }
+  .top_img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}

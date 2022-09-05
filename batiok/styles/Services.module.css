@@ -1,0 +1,63 @@
+
+
+.heding{
+  font-size: 5vw;
+  font-family: "Gambarino", sans-serif;
+  letter-spacing: 5px;
+  padding-top: 20px;
+}
+
+.text{
+ font-size: 1.3vw;
+ max-width: 700px;
+ margin-bottom: 70px;
+}
+
+.smallContainer{
+  display: flex;
+  justify-content: space-between ;
+  align-items: baseline;
+  border-top: 1px solid black;
+  
+}
+
+.title{
+  font-family: "Gambarino", sans-serif;
+  letter-spacing: 2px;
+  font-size: 3vw;
+}
+
+.paragraph{
+  font-size: 1.2vw;
+  max-width: 50%;
+}
+
+
+
+@media screen and (max-width: 850px) { 
+
+  .heding{
+    font-size: 9vw;
+    font-family: "Gambarino", sans-serif;
+    letter-spacing: 1px;
+    padding-top: 20px;
+  }
+  
+  .text{
+   font-size: 14px;
+   max-width: 300px;
+   margin-bottom: 22px;
+  }
+  
+  .title{
+    font-family: "Gambarino", sans-serif;
+    letter-spacing: 2px;
+    font-size: 4.5vw;
+  }
+  
+  .paragraph{
+    font-size: 12px;
+    max-width: 120px;
+  }
+
+}

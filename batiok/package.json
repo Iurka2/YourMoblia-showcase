@@ -1,0 +1,29 @@
+{
+  "name": "batiok",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "@react-three/fiber": "^8.6.0",
+    "framer-motion": "^6.5.1",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-burger-menu": "^3.0.8",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-hot-toast": "^2.3.0",
+    "react-medium-image-zoom": "^5.0.2",
+    "react-scroll-parallax": "^3.3.1",
+    "scroller-motion": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
