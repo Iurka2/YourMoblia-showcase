@@ -238,6 +238,7 @@ border-radius: 5px;
   }
   .center {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .text{
@@ -301,15 +302,110 @@ border-radius: 5px;
   .imgButton{
 
     color: #A57F60;
-    height:19px;
+    height:25px;
     background: none;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Gambarino", sans-serif;
     font-weight: bold;
     justify-self: end;
   
   
+  }
+
+  
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(15, 5vw);
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-top: -100px;
+}
+
+ 
+.item1{
+grid-column: 1 / span 4;
+grid-row: 4/ span 3;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 5px;
+
+}
+
+.item2{
+  grid-column: 4 / span 5;
+  grid-row: 1/ span 5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 24px;
+  
+  }
+
+  .item3{
+    grid-column:  6/ span 4;
+  grid-row: 6/ span 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  justify-self: center;
+  }
+
+
+
+  .item4{
+    
+    grid-column: 6/ span 4;
+  grid-row: 9/ span 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  
+  }
+
+  .item5{
+    
+    grid-column:  1/ span 4;
+    grid-row: 7/ span 5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+  }
+
+  .item6{
+    grid-column: 1/ span 4;
+    grid-row: 12/ span 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+
+
+  .item7{
+    grid-column: 1/ span 4;
+    grid-row: 15/ span 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .item8{
+    grid-column: 6/ span 4;
+    grid-row: 12/ span 6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
   }
 }
 

@@ -82,7 +82,7 @@ export default function Home({isVisible }) {
         <AnimatePresence >
    <motion.div variants={textAnim} initial="initial"
         animate="animate" className={styles.top_text_container}>
-<motion.p variants={textAnim}   className={styles.top_text}>Ne specializăm în mobilă la comandă pe care o <br />producem din materie de calitate cu atenție la detalii</motion.p>
+<motion.p variants={textAnim}   className={styles.top_text}>Ne specializăm în mobilă la comandă pe care o producem din materiale de calitate cu atenție la detalii</motion.p>
 <Link href='/gallery'> 
 <motion.a variants={textAnim}  className='button_top hover-underline-animation'>Vezi Proiecte</motion.a>
 </Link> 

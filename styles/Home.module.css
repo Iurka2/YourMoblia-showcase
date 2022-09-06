@@ -196,25 +196,26 @@ padding-top: 5%;
       display: flex;
       flex-direction: column;
       align-self: flex-start;
-    align-items: flex-start;
+   
     }
 
 
 
     .top_text{
-      align-self: flex-end;
-      font-size: 14px;
+     
+      font-size: 2vh;
+
 
     }
 
 
-
+/* 
 
     .img_container{
       margin-top:50px;
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(4, 100px);
+      grid-template-rows: repeat(6, 100px);
       row-gap: 50px;
       }
 
@@ -222,7 +223,7 @@ padding-top: 5%;
 
       .imgbg{
         grid-column: 1 / span 6;
-        grid-row: 1/ span 4;
+        grid-row: 1/ span 6;
         width: 100%;
         height: 100%;
         border-radius: 5px ;
@@ -252,7 +253,7 @@ padding-top: 5%;
           height: 25%;
           font-size: 4vw;
           margin-left: 14px;
-        }
+        } */
 
         
 

@@ -41,6 +41,14 @@ align-items: flex-start;
 
 
 @media screen and (max-width: 850px) {
+
+  .title{
+    font-size: 4.25vh;
+  
+    font-family: "Gambarino", sans-serif;
+    letter-spacing: 3px;
+  
+  }
   .container{
     display: flex;
     flex-direction: column;
