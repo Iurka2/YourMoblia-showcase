@@ -150,6 +150,7 @@ font-size: 1.5vw;
   font-weight: bold;
   min-width: 300px;
   cursor: pointer;
+  margin: 0;
 }
 
 footer{
@@ -158,7 +159,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 position: relative;
-bottom: -220px;
+bottom: -150px;
 }
 
 .footer_bottom{

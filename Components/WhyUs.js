@@ -52,18 +52,18 @@ De ce YourMobila
 <div className='why_container_text'>
 
 <motion.div className="why_colum" variants={fadeEffect}>
-<motion.span variants={fadeEffect}> <span className="why_nr">01.</span>Noi apreciem lucrul făcut calitativ și vrem să colaborăm cu persoane care la fel apreciază acest efort</motion.span>
-<motion.span variants={fadeEffect}><span className="why_nr">02.</span>Producem mobilă nestandartă, modernă, care se incorporează în orice încăpere </motion.span>
+<motion.span variants={fadeEffect}> <span className="why_nr">01.</span>Noi apreciem lucrul făcut calitativ și vrem să colaborăm cu persoane care la fel apreciază acest efort.</motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">02.</span>Producem mobilă nestandartă, modernă, care se incorporează în orice încăpere. </motion.span>
 </motion.div>
 
 <motion.div className="why_colum" variants={fadeEffect}>
-<motion.span variants={fadeEffect}><span className="why_nr">03.</span> Persoane care doresc să evite aspectul de serie al majorității mobilierului de serie. </motion.span>
-<motion.span variants={fadeEffect}><span className="why_nr">04.</span>Avem capacitatea de a crea toată gama mobilieră, de la baie până la bucătărie  </motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">03.</span>Ne adresăm persoanelor care doresc să evite aspectul de serie al majorității mobilierului. </motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">04.</span>Avem capacitatea de a crea toată gama de mobilier,începând cu camera de baie, living, dormitor, bucătărie și altele  </motion.span>
 </motion.div>
 
 <motion.div className="why_colum" variants={fadeEffect}>
-<motion.span variants={fadeEffect}><span className="why_nr">05.</span>Considerăm că este sarcina noastră să alegem materiale care să satisfacă atât nevoile estetice, cât și cele practice.</motion.span>
-<motion.span variants={fadeEffect}><span className="why_nr">06.</span> Mereu ne străduim să ajungem la un preț care convine cum clientului așa și companiei </motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">05.</span>Considerăm că este sarcina noastră să propunem materiale care să satisfacă atât cerințele estetice, cât și cele practice.</motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">06.</span>Mereu ne străduim să ajungem la un preț care convine cum clientului atât și companiei </motion.span>
 </motion.div>
 </div>
 

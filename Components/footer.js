@@ -34,6 +34,18 @@ style: {
 +40 729 359 925
 </p>
 
+<p  className="phonenr"
+  onClick={() =>  { navigator.clipboard.writeText('+40 726 544 833'); toast.success('Phone Copied',{
+style: {
+  background: '#333',
+  color: '#fff',
+},
+
+  })}} >
++40 726 544 833
+</p>
+
+
 
 <div className="footer_bottom">
  

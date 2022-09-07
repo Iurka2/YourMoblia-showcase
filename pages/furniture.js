@@ -68,7 +68,7 @@ const Furniture = () => {
         animate="animate">
 <motion.h1 variants={textAnim} className={styles.title} >Transformăm orice încăpere<br /> într-un loc<span className={styles.estetic}> estetic</span> și<span className={styles.estetic}> confortabil</span> </motion.h1>
 <motion.div variants={textAnim} className={styles.top_text_container}>
-<p className={styles.top_text}>Ne specializăm în mobilă la comandă pe care o <br />producem din materie primă cu atenție la detalii</p>
+<p className={styles.top_text}>Ne specializăm în mobilă la comandă pe care o <br />producem din materiale de calitate cu utilaje de ultimă performanță</p>
 <Link href='/gallery'>
 <a className='button_top hover-underline-animation'>Vezi Proiecte</a>
 </Link>
@@ -87,19 +87,19 @@ const Furniture = () => {
 
 <FadeInWhenVisible> 
 <div className='container_center'>
-<h1 className='ceter_text'>Cel mai important lucru pe care îl construim este reputația noastră. Scopul nostru este de a oferi fiecărui client produse de calitate și servicii impecabile pentru clienți</h1>
+<h1 className='ceter_text'>Cel mai important lucru pe care îl construim este reputația noastră. Scopul nostru este de a oferi fiecărui client produse de calitate și servicii impecabile.</h1>
 </div>
 </FadeInWhenVisible>   
 
 
 <Services />
 <Mobila title="Garantăm calitate" 
-text='Ne asiguram de măsurari perfecte, atragem atenție la visualul estetic pe parcursul întregului proces procesul.Luăm în considerare fiecare detaliu care la rândul său formeaza un produs desăvârșit '
+text='Echipa noastră este în continuă dezvoltare.Luăm în considerare fiecare detaliu care la rândul său formeaza un produs desăvârșit '
 image='/moblaBg2.jpg' likee='/about'
 />
 <FadeInWhenVisible>   
 <div className='container_center'>
-<h1 className='ceter_text'>Ne angajăm să construim relații pe termen lung cu clienții noștri, ascultându-le nevoile și furnizând soluții.</h1>
+<h1 className='ceter_text'>Ne angajăm să construim relații pe termen lung cu clienții noștri, ascultându-le cerințele și furnizând soluții.</h1>
 </div>
 </FadeInWhenVisible>   
 
