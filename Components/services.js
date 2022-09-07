@@ -8,10 +8,10 @@ const fadeEffect = {
   hidden: {
     y: 50,
     opacity:0,
-    
-   
+       
     
   },
+  
   visible: {
     y: 0,
     opacity:1,
@@ -19,7 +19,7 @@ const fadeEffect = {
       damping: 60,
       type: "spring",
       stiffness: 200,
-    
+   
       staggerChildren: 0.45,
      
       
@@ -39,7 +39,7 @@ function FadeInWhenVisible({ children }) {
       whileInView="visible"
       viewport={{ once: true }}
       variants={fadeEffect}
-      
+      transition={{delay:0.5}}
     >
       {children}
     </motion.div>

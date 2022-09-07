@@ -1,19 +1,7 @@
 html,
 body {
-  padding: 0 50px 0 50px;
-  margin: 0;
-  margin: 0;
-  font-family: "Plus Jakarta Sans" , sans-serif;
-  color: #191716;
-  background-color: #FBFEF9;
-  overscroll-behavior: none;
-  overflow-x: hidden;
-}
 
-
-
-.App{
-  padding: 0 50px 0 50px;
+  padding: 0 40px 0 40px;
   margin: 0;
   margin: 0;
   font-family: "Plus Jakarta Sans" , sans-serif;
@@ -22,6 +10,19 @@ body {
   overscroll-behavior: none;
 
 }
+
+
+
+/* .App{
+  padding: 0 50px 0 50px;
+  margin: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans" , sans-serif;
+  color: #191716;
+  background-color: #FBFEF9;
+  overscroll-behavior: none;
+
+} */
 
 a {
   color: inherit;
@@ -129,6 +130,93 @@ font-size: 1.5vw;
 
 
 
+.subtitle{
+  font-size: 2.5vw;
+  letter-spacing: 3px;
+  margin-bottom: 2vh;
+  color: #FBFEF9;
+}
+
+
+
+
+
+
+
+.formContainer2{
+  padding-left: 24px;
+}
+
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+.formContainer{
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #FBFEF9;
+ 
+}
+
+
+.formText{
+  font-size: 2.4vh;
+  margin-top: 24px;
+}
+
+.lab{
+  width: 30vw;
+  height: 0.5vh;
+  padding: 12px 30px 12px 0px;
+  background-color: #FBFEF9;
+  border: none;
+  border: 1px solid black;
+  font-family: "Plus Jakarta Sans" , sans-serif;
+}
+
+
+.lab2{
+  width: 30vw;
+  height: 10vh;
+  padding: 12px 30px 12px 0px;
+  background-color: #FBFEF9;
+  border: 1px solid black;
+  font-family: "Plus Jakarta Sans" , sans-serif;
+}
+
+
+.submit{
+  margin-top: 24px;
+  width: 50%;
+  color: #A57F60;
+  background: none;
+	border: none;
+  font-size: 2vw;
+  font-family: "Gambarino", sans-serif;
+  text-align: start;
+  cursor: pointer;
+ 
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+
 
 
 .button_footer{
@@ -140,6 +228,7 @@ font-size: 1.5vw;
   font-weight: bold;
   min-width: 300px;
   cursor: pointer;
+  margin-bottom: 24px;
 }
 
 .phonenr{
@@ -151,23 +240,37 @@ font-size: 1.5vw;
   min-width: 300px;
   cursor: pointer;
   margin: 0;
+  margin-bottom: 24px;
 }
+
+.phonenrContainer{
+  display: flex;
+  gap: 48px;
+}
+
+
+.phonenrContainer1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
 
 footer{
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-position: relative;
-bottom: -150px;
+margin-top: 150px;
+
 }
 
 .footer_bottom{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-width: 100%;
-
+  width: 100%;
 
 }
 
@@ -300,13 +403,14 @@ font-family: "Gambarino", sans-serif;
 .someContainer{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 120px;
 }
 
 
 .facebook{
- width: 2vh;
-  margin-right: 24px;
+
+  margin-right: 54px;
 }
 
 
@@ -347,9 +451,9 @@ font-family: "Gambarino", sans-serif;
 
 @media screen and (max-width: 850px) {
   
-
-  .App{
-    padding: 0 20px 0 20px;
+  html,
+  body{
+    padding: 0 10px 0 10px;
     margin: 0;
     margin: 0;
     font-family: "Plus Jakarta Sans" , sans-serif;
@@ -383,7 +487,7 @@ font-family: "Gambarino", sans-serif;
 
 .ceter_text{
   text-align: center;
-  max-width: 100%;
+  max-width: 90%;
   font-weight: normal;
   font-size: 5vw;
 }
@@ -434,11 +538,12 @@ font-family: "Gambarino", sans-serif;
 }
 
 .button_footer{
-  font-size: 6vw;  
+  font-size: 3.4vh;  
 }
 
 .phonenr{
-  font-size: 6vw;
+  font-size: 4vh;
+  margin-bottom: 24px;
 }
 
 
@@ -605,5 +710,16 @@ cursor: pointer;
   font-size: 2.4vh;
 cursor: pointer;
 }
+.phonenrContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
 
+.someContainer{
+  width: 128px;
+  align-self: flex-start;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
 }

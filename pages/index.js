@@ -43,7 +43,7 @@ const textAnim = {
        initial="hidden"
        whileInView="visible"
        viewport={{ once: true }}
-       transition={{damping: 60, type: "spring", stiffness: 200,delay:0.2}}
+       transition={{damping: 60, type: "spring", stiffness: 200,delay:0.5}}
        variants={{visible: {  y: 0, opacity:1,},
                   hidden: { y: 50, opacity:0, }
        }}
