@@ -128,72 +128,75 @@ const Header = () => {
         <input type="submit" value="Trimete" className="submit" />
       </form>
 </div>
-
-
-
-
 </Drawer>
 </div>
-    </nav>
 
 
 
 
+<div className='mobileMenu'>
+<button onClick={toggleDrawer2} className='hederButton'><svg width="40" height="40" viewBox="0 0 21 14"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.9922 9H2" stroke="#191716" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+<path d="M19.9922 13H1.99219" stroke="#191716" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+<path d="M19.9922 5H1.99219" stroke="#191716" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+<path d="M19.9922 1H5.99219" stroke="#191716" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+</svg>
+</button>
+
+<Drawer
+             open={isOpen2}
+             onClose={toggleDrawer2}
+             direction='right'
+             size='100%'
+             style={{ 
+               backgroundColor: '#191716',
+             }}> 
+
+             
+
+
+<svg  onClick={toggleDrawer2} className='close' width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 1.02344L1 13.0234" stroke="#b8b7ad" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M1 1.02344L13 13.0234" stroke="#b8b7ad" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
 
 
 
 
-    <button onClick={toggleDrawer2} className='hederButton'>yo</button>
+<div className='listItems'>
+   <Link href='/'>
+     <a id="home" className="bm-item" >Home</a>
+     </Link>
 
-   <Drawer
-                open={isOpen2}
-                onClose={toggleDrawer2}
-                direction='right'
-                size='100'
-                style={{ 
-                  backgroundColor: '#191716',
-        
-                  
-                }}
-            > 
+     <Link href='/furniture'>
+     <a id="about" className="bm-item" >Mobila la comandă</a>
+     </Link>
 
-            </Drawer>
+     <Link href="/gallery">
+     <a  className="bm-item" >Proiecte</a>
+     </Link>
+     
+     <Link href="/about">
+     <a  className="bm-item" >Despre Noi</a>
+     </Link>
 
-{/* 
+         <Link href="/contact">
+     <a  className="bm-item" >Contact</a>
+     </Link>
+     
+</div>
 
-      <Link href='/'>
-        <a id="home" className="bm-item" >Home</a>
-        </Link>
+     <div className='burgerBottom'>
+     <button  className="buttonBurger"
+onClick={() =>  { navigator.clipboard.writeText('yourmobila.ro@gmail.com'); 
 
-        <Link href='/furniture'>
-        <a id="about" className="bm-item" >Mobila la comandă</a>
-        </Link>
+toast.success('E-mail copied',{
 
-        <Link href="/gallery">
-        <a  className="bm-item" >Proiecte</a>
-        </Link>
-        
-        <Link href="/about">
-        <a  className="bm-item" >Despre Noi</a>
-        </Link>
+ style: {
 
-            <Link href="/contact">
-        <a  className="bm-item" >Contact</a>
-        </Link>
-        
-
-
-        <div className='burgerBottom'>
-        <button  className="buttonBurger"
-  onClick={() =>  { navigator.clipboard.writeText('yourmobila.ro@gmail.com'); 
-  
-  toast.success('E-mail copied',{
-  
-    style: {
-
-      background: '#333',
-      color: '#fff',
-    }, })}}>
+   background: '#333',
+   color: '#fff',
+ }, })}}>
 yourmobila.ro@gmail.com
 </button>
 
@@ -202,19 +205,27 @@ yourmobila.ro@gmail.com
 
 
 <p  className="phonenrBurger"
-  onClick={() =>  { navigator.clipboard.writeText('+40 729 359 925'); toast.success('Phone Copied',{
+onClick={() =>  { navigator.clipboard.writeText('+40 729 359 925'); toast.success('Phone Copied',{
 style: {
-  background: '#333',
-  color: '#fff',
+background: '#333',
+color: '#fff',
 },
 
-  })}} >
+})}} >
 +40 729 359 925
 </p>
-</div> */}
-{/* 
-</Drawer>  */}
-        
+</div> 
+
+</Drawer> 
+     
+
+</div>
+
+
+
+    </nav>
+
+   
     </>
 
     

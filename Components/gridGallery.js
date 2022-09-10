@@ -2,7 +2,7 @@ import styles from '../styles/gridGallery.module.css'
 import Image from 'next/image';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
-
+import { motion } from 'framer-motion';
 
 const GridGallery = ({img1, img2, img3, img4,img5,img6,img7,img8 }) => {
   return ( <>
@@ -11,58 +11,58 @@ const GridGallery = ({img1, img2, img3, img4,img5,img6,img7,img8 }) => {
   
     
 
-        <div className={styles.item1}>
+        <motion.div className={styles.item1} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }}>
            <Image  layout='responsive'  src={img1}  className={styles.pic}  />
           </Zoom>
-         </div>
+         </motion.div>
 
          
-        <div className={styles.item2}>
+        <motion.div className={styles.item2} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
            <Image  layout='responsive'  src={img2}  className={styles.pic} />
           </Zoom>
-         </div>
+         </motion.div>
 
-         <div className={styles.item3}>
+         <motion.div className={styles.item3} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
            <Image  layout='responsive'   src={img3} className={styles.pic}  />
           </Zoom>
-         </div>
+         </motion.div>
 
 
-         <div className={styles.item4}>
+         <motion.div className={styles.item4} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
            <Image  layout='responsive'  src={img4} className={styles.pic}  />
           </Zoom>
-         </div>
+         </motion.div>
 
-         <div className={styles.item5}>
+         <motion.div className={styles.item5} whileHover={{scale:1.03}}> 
          <Zoom wrapStyle={{ maxWidth: "100%"}}>
            <Image  layout='responsive'  src={img5} className={styles.pic}  />
           </Zoom>
-         </div>
+         </motion.div>
 
          
-         <div className={styles.item6}>
+         <motion.div className={styles.item6} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
            <Image  layout='responsive'  src={img6} className={styles.pic}   />
           </Zoom>
-         </div>
+         </motion.div>
 
 
-         <div className={styles.item7}>
+         <motion.div className={styles.item7} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
            <Image  layout='responsive'  src={img7} className={styles.pic}  />
           </Zoom>
-         </div>
+         </motion.div>
 
          
-         <div className={styles.item8}>
+         <motion.div className={styles.item8} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
            <Image  layout='responsive'   src={img8} className={styles.pic}  />
           </Zoom>
-         </div>
+         </motion.div>
 
          
    

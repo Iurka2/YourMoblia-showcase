@@ -13,16 +13,7 @@ body {
 
 
 
-/* .App{
-  padding: 0 50px 0 50px;
-  margin: 0;
-  margin: 0;
-  font-family: "Plus Jakarta Sans" , sans-serif;
-  color: #191716;
-  background-color: #FBFEF9;
-  overscroll-behavior: none;
 
-} */
 
 a {
   color: inherit;
@@ -214,7 +205,7 @@ font-size: 1.5vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 
@@ -448,9 +439,14 @@ font-family: "Gambarino", sans-serif;
 }
 
 
+.mobileMenu{
+  display: none;
+}
+
 
 @media screen and (max-width: 850px) {
   
+ 
   html,
   body{
     padding: 0 10px 0 10px;
@@ -616,79 +612,44 @@ footer{
     position: relative;
     bottom: -50px;
 }
-
-
-
-
-
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  right: 36px;
-  top: 36px;
+.mobileMenu{
   display: block;
 }
 
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: #191716;
+.hederButton{
+  background:none;
+  border: none;
+  align-self: center;
+  display: block;
+
+  
 }
 
 
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
+.close{
+padding: 20px;
+ cursor: pointer;
+ position: absolute;
+ top:0;
+ right: 0;
 }
 
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7;
-
-}
-
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
-.bm-menu-wrap {
-  position: absolute;
-  height: 100%;
-  top: 0;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: #191716;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.6em;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
-}
-
-/* Individual item */
 .bm-item {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+  color: #b8b7ad;
+  font-size: 3.4vh;
 }
 
-/* Styling of overlay */
-.bm-overlay {
-  background: transparent;
+
+.listItems{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 24px;
 }
+
 
 .buttonBurger{
   color: #A57F60;
@@ -701,6 +662,7 @@ cursor: pointer;
 
 .burgerBottom{
   margin-top: 240px;
+  padding-left: 50px;
 }
 
 .phonenrBurger{

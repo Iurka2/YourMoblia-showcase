@@ -101,7 +101,7 @@ const Furniture = () => {
 <Services />
 <Mobila title="Garantăm calitate" 
 text='Echipa noastră este în continuă dezvoltare.Luăm în considerare fiecare detaliu care la rândul său formeaza un produs desăvârșit '
-image='/moblaBg2.jpg' likee='/about'
+image='/gallery_images/22.jpeg' likee='/about'
 />
 <FadeInWhenVisible>   
 <div className='container_center'>

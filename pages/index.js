@@ -66,20 +66,20 @@ export default function Home({isVisible }) {
    <meta name='keywords' content='Mobila la comanda' />
 </Head>
 
-<div className={styles.container}>
+
 
 
 
 
 
 <AnimatePresence >
-    
+<motion.div className={styles.container}>
 <motion.h1 variants={textAnim} initial="initial"
         animate="animate" className={styles.title}>Creăm proiecte de calitate înaltă  <span className={styles.important_text}>de 20 de ani</span>  </motion.h1> 
-     </AnimatePresence>
+
    
 
-        <AnimatePresence >
+      
    <motion.div variants={textAnim} initial="initial"
         animate="animate" className={styles.top_text_container}>
 <motion.p variants={textAnim}   className={styles.top_text}>Ne specializăm în mobilă la comandă pe care o producem din materiale de calitate cu atenție la detalii</motion.p>
@@ -87,8 +87,9 @@ export default function Home({isVisible }) {
 <motion.a variants={textAnim}  className='button_top hover-underline-animation'>Vezi Proiecte</motion.a>
 </Link> 
  </motion.div>
+ </motion.div>
  </AnimatePresence>
-</div>
+
 
 
 
