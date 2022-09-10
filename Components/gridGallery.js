@@ -1,113 +1,77 @@
 import styles from '../styles/gridGallery.module.css'
-import  {ParallaxBanner}  from 'react-scroll-parallax';
+import Image from 'next/image';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 
-
-
-const GridGallery = () => {
+const GridGallery = ({img1, img2, img3, img4,img5,img6,img7,img8 }) => {
   return ( <>
   
+  <div className={styles.container}>
   
-  
-<div className={styles.container}>
-<ParallaxBanner
-  className={styles.item1}
-  
-  
-  layers={[
-    {
-      image:"/gallery_images/22.jpeg",
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
+    
+
+        <div className={styles.item1}>
+         <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }}>
+           <Image  layout='responsive'  src={img1}  className={styles.pic}  />
+          </Zoom>
+         </div>
+
+         
+        <div className={styles.item2}>
+         <Zoom wrapStyle={{ maxWidth: "100%" }}>
+           <Image  layout='responsive'  src={img2}  className={styles.pic} />
+          </Zoom>
+         </div>
+
+         <div className={styles.item3}>
+         <Zoom wrapStyle={{ maxWidth: "100%" }}>
+           <Image  layout='responsive'   src={img3} className={styles.pic}  />
+          </Zoom>
+         </div>
+
+
+         <div className={styles.item4}>
+         <Zoom wrapStyle={{ maxWidth: "100%" }}>
+           <Image  layout='responsive'  src={img4} className={styles.pic}  />
+          </Zoom>
+         </div>
+
+         <div className={styles.item5}>
+         <Zoom wrapStyle={{ maxWidth: "100%"}}>
+           <Image  layout='responsive'  src={img5} className={styles.pic}  />
+          </Zoom>
+         </div>
+
+         
+         <div className={styles.item6}>
+         <Zoom wrapStyle={{ maxWidth: "100%" }}>
+           <Image  layout='responsive'  src={img6} className={styles.pic}   />
+          </Zoom>
+         </div>
+
+
+         <div className={styles.item7}>
+         <Zoom wrapStyle={{ maxWidth: "100%" }}>
+           <Image  layout='responsive'  src={img7} className={styles.pic}  />
+          </Zoom>
+         </div>
+
+         
+         <div className={styles.item8}>
+         <Zoom wrapStyle={{ maxWidth: "100%" }}>
+           <Image  layout='responsive'   src={img8} className={styles.pic}  />
+          </Zoom>
+         </div>
+
+         
+   
 
 
 
-<ParallaxBanner
-  className={styles.item2}
-  layers={[
-    {
-      image: '/gallery_images/25.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
 
 
-
-<ParallaxBanner
-  className={styles.item3}
-  layers={[
-    {
-      image: '/gallery_images/24.jpeg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-<ParallaxBanner
-  className={styles.item4}
-  layers={[
-    {
-      image: '/gallery_images/27.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-<ParallaxBanner
-  className={styles.item5}
-  layers={[
-    {
-      image: '/gallery_images/42.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-<ParallaxBanner
-  className={styles.item6}
-  layers={[
-    {
-      image: '/gallery_images/40.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-<ParallaxBanner
-  className={styles.item7}
-  layers={[
-    {
-      image: '/gallery_images/26.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-
-<ParallaxBanner
-  className={styles.item8}
-  layers={[
-    {
-      image: '/gallery_images/43.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-</div>
-  
-
-
-  
-
-
+      </div>
   </> );
 }
  

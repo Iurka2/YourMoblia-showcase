@@ -3,13 +3,15 @@ import  {ParallaxBanner, ParallaxBannerLayer}  from 'react-scroll-parallax';
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import Head from 'next/head'
-
-
-
-
-
-
-
+import GridGallery from '../Components/gridGallery';
+import img1 from '../public/gallery_images/24.jpeg'
+import img2 from '../public/gallery_images/16.jpg'
+import img3 from '../public/gallery_images/22.jpeg'
+import img4 from '../public/gallery_images/50.jpg'
+import img5 from '../public/gallery_images/51.jpg'
+import img6 from '../public/gallery_images/52.jpg'
+import img7 from '../public/gallery_images/53.jpg'
+import img8 from '../public/gallery_images/12.jpg'
 
 
 
@@ -114,100 +116,7 @@ const About = () => {
 
 
 
-<div className={styles.gridContainer}>
-<ParallaxBanner
-  className={styles.item1}
-  
-  
-  layers={[
-    {
-      image:"/gallery_images/22.jpeg",
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-
-<ParallaxBanner
-  className={styles.item2}
-  layers={[
-    {
-      image: '/gallery_images/40.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-
-<ParallaxBanner
-  className={styles.item3}
-  layers={[
-    {
-      image: '/gallery_images/24.jpeg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-<ParallaxBanner
-  className={styles.item4}
-  layers={[
-    {
-      image: '/gallery_images/27.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-<ParallaxBanner
-  className={styles.item5}
-  layers={[
-    {
-      image: '/gallery_images/41.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-<ParallaxBanner
-  className={styles.item6}
-  layers={[
-    {
-      image: '/gallery_images/15.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-<ParallaxBanner
-  className={styles.item7}
-  layers={[
-    {
-      image: '/gallery_images/26.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-
-
-<ParallaxBanner
-  className={styles.item8}
-  layers={[
-    {
-      image: '/gallery_images/43.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '1 / 1' }}/>
-
-</div>
-
+< GridGallery img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} img6={img6} img7={img7} img8={img8}   />
     </>
    );
 }

@@ -1,5 +1,4 @@
 import styles from '../styles/custom.module.css'
-import  {ParallaxBanner}  from 'react-scroll-parallax';
 import Services from '../Components/services';
 import Mobila from '../Components/mobila';
 import GridGallery from '../Components/gridGallery';
@@ -7,7 +6,20 @@ import WhyUs from '../Components/WhyUs';
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import Head from 'next/head'
- 
+import Image from 'next/image';
+import img1 from '../public/gallery_images/24.jpeg'
+import img2 from '../public/gallery_images/16.jpg'
+import img3 from '../public/gallery_images/22.jpeg'
+import img4 from '../public/gallery_images/50.jpg'
+import img5 from '../public/gallery_images/51.jpg'
+import img6 from '../public/gallery_images/52.jpg'
+import img7 from '../public/gallery_images/53.jpg'
+import img8 from '../public/gallery_images/8.jpg'
+
+
+
+
+
 function FadeInWhenVisible({ children }) {
   return (
     <motion.div
@@ -75,15 +87,9 @@ const Furniture = () => {
 </motion.div>
 </motion.div>
 
-<ParallaxBanner
-  className={styles.top_img}
-  layers={[
-    {
-      image: '/gallery_images/26.jpg',
-      speed: 5,
-    },
-  ]}
-  style={{ aspectRatio: '2 / 1' }}/>
+<div className={styles.imgtop}>
+<Image src={img1} layout='responsive'  />
+</div>
 
 <FadeInWhenVisible> 
 <div className='container_center'>
@@ -103,7 +109,7 @@ image='/moblaBg2.jpg' likee='/about'
 </div>
 </FadeInWhenVisible>   
 
-<GridGallery  />
+< GridGallery img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} img6={img6} img7={img7} img8={img8}   />
 
 
 <WhyUs />
