@@ -21,7 +21,7 @@
 
 .subtitle{
   font-size: 2.5vw;
-  letter-spacing: 3px;
+  
   margin-bottom: 4vh;
 }
 
@@ -180,7 +180,7 @@
 
   .title{
     font-size: 4vh;
-    line-height: 110%;
+    
     font-family: "Gambarino", sans-serif;
   }
 
@@ -257,15 +257,15 @@
 
 
 .formContainer2{
-  margin-top: 80px;
-  margin-bottom: 100px;
+  
+margin-bottom: 50px;
 }
 
 .formContainer{
   display: flex;
   align-self: flex-start;
   flex-direction: column;
-  margin-top: 24px;
+  
   
  
 }

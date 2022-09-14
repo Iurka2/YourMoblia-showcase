@@ -255,7 +255,8 @@ border-radius: 5px;
 
   .center_title{
     display: flex;
-    font-size: 3.5vh; 
+    font-size: 8vw; 
+    margin: 0;
   }
 
 
@@ -273,11 +274,12 @@ border-radius: 5px;
   }
   
   .heroTitle{
-    font-size: 4vh;
+    font-size: 8vw;
+    margin: 0;
   }
   
   .heroText{
-    font-size: 16px;
+    font-size: 14px;
     max-width: 700px;
     margin-bottom: 40px;
   }
@@ -295,7 +297,7 @@ border-radius: 5px;
     font-size: 1.4vh;
     text-align: center;
     margin-bottom: 150px;
-    margin-top: 50px;
+    margin-top: 150px;
     
   }
 

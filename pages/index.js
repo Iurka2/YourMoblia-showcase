@@ -93,7 +93,7 @@ export default function Home({isVisible }) {
 
 
 
-<Mobila text="De-a lungul anilor ne-am dezvolat, ne-am perfecționa, pentru a satisface cele mai exigente dorințe." title='Mobilă cu suflet, caracter și temperament' image='/photo_top.jpg' likee='/about'  />
+<Mobila text="De-a lungul anilor ne-am dezvolat, ne-am perfecționat, pentru a satisface cele mai exigente dorințe." title='Mobilă cu suflet, caracter și temperament' image='/photo_top.jpg' likee='/about'  />
 
 <AnimatePresence >
 <FadeInWhenVisible>

@@ -287,7 +287,7 @@ margin-top: 150px;
   color: #A57F60;
   background: none;
 
-  font-size: 1rem;
+  font-size: 1vw;
   font-family: "Gambarino", sans-serif;
   font-weight: bold;
 }
@@ -474,6 +474,13 @@ font-family: "Gambarino", sans-serif;
  }
 
 
+
+.button_top{
+  font-size: 5vw;
+  
+}
+
+
  .logo{
   align-self: flex-start;
   position: relative;
@@ -534,11 +541,13 @@ font-family: "Gambarino", sans-serif;
 }
 
 .button_footer{
-  font-size: 3.4vh;  
+  font-size: 8vw;  
+  align-self: flex-start;
+  
 }
 
 .phonenr{
-  font-size: 4vh;
+  font-size: 8vw;
   margin-bottom: 24px;
 }
 
@@ -593,7 +602,7 @@ font-family: "Gambarino", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  
   font-size: 1.5vh;
 
 
@@ -605,12 +614,11 @@ font-family: "Gambarino", sans-serif;
 }
 
 footer{
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: relative;
-    bottom: -50px;
+
 }
 .mobileMenu{
   display: block;

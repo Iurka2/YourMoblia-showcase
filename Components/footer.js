@@ -7,7 +7,7 @@ const Footer = () => {
 <>
 
 <footer className="footer">
-<button  className="button_footer hover-underline-animation"
+<span  className="button_footer hover-underline-animation"
   onClick={() =>  { navigator.clipboard.writeText('yourmobila.ro@gmail.com'); 
   
   toast.success('E-mail copied',{
@@ -18,7 +18,7 @@ const Footer = () => {
       color: '#fff',
     }, })}}>
 yourmobila.ro@gmail.com
-</button>
+</span>
 
 
 <div className="phonenrContainer1">

@@ -146,7 +146,8 @@ padding-left: 5%;
   grid-column: 1 / span 2;
   grid-row: 31 / span 1 ;
   font-size: 11vw;
-  margin-left: 20px;
+ align-self: flex-start;
+ justify-self: flex-start;
   font-family: "Gambarino", sans-serif;
 
 } 

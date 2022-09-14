@@ -86,7 +86,7 @@ const About = () => {
 <div className={styles.bigContainer}>
 <div className={styles.heroTextContainer}>
   <h1 className={styles.heroTitle}>Compania noastră</h1>
-  <p className={styles.heroText}> Avem o vastă experiență în fabricarea de mobilier la comandă.Pe parcurs anilor am instalat sute de proiecte.Noi suntem profesioniști în proiectarea și producerea mobilierului personalizat. </p>
+  <p className={styles.heroText}> Avem o vastă experiență în fabricarea de mobilier la comandă.Pe parcursul anilor am instalat sute de proiecte.Noi suntem profesioniști în proiectarea și producerea mobilierului personalizat. </p>
  <Link href='/contact'>
   <span className={`${styles.imgButton} ${styles.hoverUnderlineAnimation}`}>Hai să colaborăm !</span> 
   </Link>
@@ -110,7 +110,7 @@ const About = () => {
   
   <FadeInWhenVisible>
 <div className={styles.centerText}>
-<h1>Ani de experiență și nenumărate<br /> proiecte în spatele nostru</h1>
+<h1>Ani de experiență și nenumărate proiecte în spatele nostru</h1>
 </div>
 </FadeInWhenVisible>
 
