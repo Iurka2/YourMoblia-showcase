@@ -88,7 +88,7 @@ const Furniture = () => {
 </motion.div>
 
 <div className={styles.imgtop}>
-<Image src={img1} layout='responsive'  />
+<Image src={img1} alt='big modern kithcen for family' layout='responsive'  />
 </div>
 
 <FadeInWhenVisible> 

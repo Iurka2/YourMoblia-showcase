@@ -34,73 +34,73 @@ const Gallery = () => {
 
 <motion.div className={styles.item1} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }}>
-           <Image  layout='responsive'  src={img1}  className={styles.pic}  />
+           <Image  layout='responsive' alt='big brown kithen for family'  src={img1}  className={styles.pic}  />
           </Zoom>
          </motion.div>
 
          
         <motion.div className={styles.item2} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'  src={img2}  className={styles.pic} />
+           <Image  layout='responsive' alt='spacious grey kithen for family'  src={img2}  className={styles.pic} />
           </Zoom>
          </motion.div>
 
          <motion.div className={styles.item3} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'   src={img3} className={styles.pic}  />
+           <Image  layout='responsive' alt='spacious blue kithen for family'  src={img3} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
 
          <motion.div className={styles.item4} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'  src={img4} className={styles.pic}  />
+           <Image  layout='responsive' alt='small wood kithen for family'  src={img4} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
          <motion.div className={styles.item5} whileHover={{scale:1.03}}> 
          <Zoom wrapStyle={{ maxWidth: "100%"}}>
-           <Image  layout='responsive'  src={img5} className={styles.pic}  />
+           <Image  layout='responsive'  alt='a ceramic sink' src={img5} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
          
          <motion.div className={styles.item6} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'  src={img6} className={styles.pic}   />
+           <Image  layout='responsive'  alt='dark kithcen for family' src={img6} className={styles.pic}   />
           </Zoom>
          </motion.div>
 
 
          <motion.div className={styles.item7} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'  src={img7} className={styles.pic}  />
+           <Image  layout='responsive' alt='bright spacius kitchen'  src={img7} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
          
          <motion.div className={styles.item8} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'   src={img8} className={styles.pic}  />
+           <Image  layout='responsive' alt='drawer in a nice home'   src={img8} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
 
          <motion.div className={styles.item9} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'   src={img9} className={styles.pic}  />
+           <Image  layout='responsive' alt='big blue kithcen modern'    src={img9} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
          <motion.div className={styles.item10} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'   src={img10} className={styles.pic}  />
+           <Image  layout='responsive'   alt='default kithcen modern for family'  src={img10} className={styles.pic}  />
           </Zoom>
          </motion.div>
 
          <motion.div className={styles.item11} whileHover={{scale:1.03}}>
          <Zoom wrapStyle={{ maxWidth: "100%" }}>
-           <Image  layout='responsive'   src={img11} className={styles.pic}  />
+           <Image  layout='responsive'  alt='nice kithcen '  src={img11} className={styles.pic}  />
           </Zoom>
          </motion.div> 
          

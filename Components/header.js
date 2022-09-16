@@ -66,7 +66,7 @@ const Header = () => {
   
     <Link href="/" >
  <div className='logo' > <a>
-<Image src={logo} width= "100px" height='50' />
+<Image src={logo} alt="yourmobila logo" width= "100px" height='50' />
 
 </a></div>
  </Link>
