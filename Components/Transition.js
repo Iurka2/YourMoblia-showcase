@@ -13,11 +13,7 @@ const variants = {
   out: {
     opacity: 0,
 
-    transition: {
-      duration: 0.35,
-      damping: 100,
-     
-    }
+ 
   }
 };
 
