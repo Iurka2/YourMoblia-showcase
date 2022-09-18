@@ -71,7 +71,7 @@ const Services = () => {
 
 <motion.div className={styles.smallContainer} variants={fadeEffect}>
   <h2 className={styles.title }>02. Desen schiță</h2>
-  <p className={styles.paragraph}>Desen scița și programare client, pentru vizualizare și eventual modificari.Acest pas ne permite să ne asigurăm că înțelegerea noastră a proiectului se potrivește cu așteptările clientului. </p>
+  <p className={styles.paragraph}>Desen schiță și programare client, pentru vizualizare și eventual modificari.Acest pas ne permite să ne asigurăm că înțelegerea noastră a proiectului se potrivește cu așteptările clientului. </p>
 </motion.div>
 <motion.div className={styles.smallContainer} variants={fadeEffect}>
   <h2 className={styles.title}>03. Proiectul tehnic</h2>

@@ -73,7 +73,7 @@ const Contact = () => {
         <textarea  {...register("message", {required: 'Lasă un mesaj'})} type="text" placeholder="Salut, aș vrea să întreb.." className={styles.lab2} />
         <span className="erorMesage">{errors.message?.message}</span>
 
-        <input type="submit" value="Trimete" className={`${styles.submit} ${styles.hoverUnderlineAnimation}`} />
+        <input type="submit" value="Trimite" className={`${styles.submit} ${styles.hoverUnderlineAnimation}`} />
       </form>
 </div>
    

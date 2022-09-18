@@ -58,12 +58,12 @@ De ce YourMobila
 
 <motion.div className="why_colum" variants={fadeEffect}>
 <motion.span variants={fadeEffect}><span className="why_nr">03.</span>Ne adresăm persoanelor care doresc să evite aspectul de serie al majorității mobilierului. </motion.span>
-<motion.span variants={fadeEffect}><span className="why_nr">04.</span>Avem capacitatea de a crea toată gama de mobilier,începând cu camera de baie, living, dormitor, bucătărie și altele  </motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">04.</span>Avem capacitatea de a crea toată gama de mobilier,începând cu camera de baie, living, dormitor, bucătărie și altele.  </motion.span>
 </motion.div>
 
 <motion.div className="why_colum" variants={fadeEffect}>
 <motion.span variants={fadeEffect}><span className="why_nr">05.</span>Considerăm că este sarcina noastră să propunem materiale care să satisfacă atât cerințele estetice, cât și cele practice.</motion.span>
-<motion.span variants={fadeEffect}><span className="why_nr">06.</span>Mereu ne străduim să ajungem la un preț care convine cum clientului atât și companiei </motion.span>
+<motion.span variants={fadeEffect}><span className="why_nr">06.</span>Mereu ne străduim să ajungem la un preț care convine cum clientului atât și companiei. </motion.span>
 </motion.div>
 </div>
 
