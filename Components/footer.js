@@ -48,10 +48,10 @@ style: {
 </div>
 <div className="someContainer">
     <a href="https://www.facebook.com/IIUM-497430033789824" target="_blank" rel="noreferrer">
-    <Image src="/facebook.png" width={40} height={40} alt="Facebook logo icon" className="facebook" />
+    <Image src="/facebook.png" width={35} height={35} alt="Facebook logo icon" className="facebook" />
     </a>
     <a href="https://wa.me/+40729359925" target="_blank" rel="noreferrer">
-    <Image src="/WhatsApp 1.svg" width={60} height={60} alt="WhatsApp logo icon"/>
+    <Image src="/WhatsApp 1.svg" width={50} height={50} alt="WhatsApp logo icon"/>
 </a>
   </div>
 
