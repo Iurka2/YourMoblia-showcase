@@ -4,6 +4,11 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { motion } from 'framer-motion';
 
+
+
+
+
+
 const GridGallery = ({img1, img2, img3, img4,img5,img6,img7,img8 }) => {
   return ( <>
   
@@ -12,7 +17,8 @@ const GridGallery = ({img1, img2, img3, img4,img5,img6,img7,img8 }) => {
     
 
         <motion.div className={styles.item1} whileHover={{scale:1.03}}>
-         <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }}>
+         <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }} >
+          
            <Image  layout='responsive' alt="photo of brown modern kitchen"  src={img1}  className={styles.pic}  />
           </Zoom>
          </motion.div>

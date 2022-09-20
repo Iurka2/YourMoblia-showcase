@@ -1,9 +1,9 @@
 html,
 body {
 
-  padding: 0 40px 0 40px;
+
   margin: 0;
-  margin: 0;
+  padding: 0;
   font-family: "Plus Jakarta Sans" , sans-serif;
   color: #191716;
   background-color: #FBFEF9;
@@ -12,7 +12,9 @@ body {
 }
 
 
-
+body{
+  margin: 0 48px 0 48px;
+}
 
 
 a {
@@ -304,16 +306,18 @@ margin-top: 150px;
 .why_container_text{
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
   
 }
 
 .why_colum{
   display: flex;
   flex-direction: column;
-  max-width: 490px ;
+  max-width: 500px ;
   row-gap: 100px;
   font-size: 2.3vh;
-  justify-content: space-between;
+
   
 }
 
@@ -449,15 +453,16 @@ font-family: "Gambarino", sans-serif;
  
   html,
   body{
-    padding: 0 10px 0 10px;
     margin: 0;
-    margin: 0;
+    padding: 0;
     font-family: "Plus Jakarta Sans" , sans-serif;
     color: #191716;
     background-color: #FBFEF9;
   
   }
-
+body{
+  margin: 0 8px 0 8px;
+}
 
 .NavBar{
   align-items: baseline;
