@@ -105,13 +105,13 @@ export default function Home({isVisible }) {
 </FadeInWhenVisible>  
 </AnimatePresence >
 
-<Mobila text="Folosind tehnici moderne de fabricație, aprovizionând cu atenție materiale și lucrând cu cele mai bune minți din afacere, proiectăm tot ceea ce facem cu un etos simplu: să nu vă facă să alegeți între calitate și preț." title='Mobilă la comandă' image='/gridPhoto1.jpg' likee='/furniture'  /> 
+<Mobila text="Oferim soluții individuale de design,folosim o varietate largă de materiale și feronerie de la cei mai renumiți producători.Principiul nostru: să nu alegeți între calitate și preț." title='Mobilă la comandă' image='/gridPhoto1.jpg' likee='/furniture'  /> 
 
 
 <AnimatePresence >
 <FadeInWhenVisible>
 <div className='container_center'>
-<h1 className='ceter_text'>Facem doar produse utile pe care am dori să le deținem noi înșine. Pentru noi, crearea de produse atemporale, bine făcute este forma supremă de durabilitate.</h1>
+<h1 className='ceter_text'>Facem doar produse utile pe care am dori să le deținem noi înșine.Producerea unei bucatarie sau altui mobilier este o creație, la care puteți participa și voi.</h1>
 </div>
 </FadeInWhenVisible>  
 
@@ -135,9 +135,3 @@ export default function Home({isVisible }) {
    </>
   )
 }
-
-{/* <img src='/gallery_images/4.jpg' className={styles.item2}></img>
-<img src='/gallery_images/8.jpg' className={styles.item3}></img>
-<img src='/gallery_images/11.jpg' className={styles.item4}></img>
-<img src='/gallery_images/12.jpg' className={styles.item5}></img>
-<img src='/gallery_images/2.jpg' className={styles.item6}></img> */}

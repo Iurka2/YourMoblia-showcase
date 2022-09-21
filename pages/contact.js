@@ -97,13 +97,13 @@ yourmobila.ro@gmail.com
 </p>
 
 <p  className={styles.phonenr}
-  onClick={() =>  { navigator.clipboard.writeText('+40 729 359 925'); toast.success('Phone Copied',{
+  onClick={() =>  { navigator.clipboard.writeText('+40 727 774 655'); toast.success('Phone Copied',{
 style: {
   background: '#333',
   color: '#fff',
 },
   })}} >
-+40 729 359 925
++40 727 774 655
 </p>
 </div>
 
