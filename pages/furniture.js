@@ -70,9 +70,13 @@ const Furniture = () => {
     <>
 
 <Head>
-  <title> YourMobil | Mobilă la comandă </title>
-   <meta name='keywords' content='Mobila la comanda' />
+  <title> YourMobila | Mobilă la comandă </title>
+   <meta name='keywords' content='Mobila la comanda mobila pentru familie, bucătărie' />
+   <link rel="icon" href="/favicon.ico" />
+   <meta name='description' content='Mobila la comandă pentru tine și familia ta' /> 
 </Head>
+
+
 
 
 

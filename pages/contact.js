@@ -48,9 +48,13 @@ const Contact = () => {
     <>
 
 <Head>
-  <title> YourMobil | Contact </title>
-   <meta name='keywords' content='Contact' />
+  <title> YourMobila | Contact </title>
+   <meta name='keywords' content='Contacteaza sună gasește ' />
+   <link rel="icon" href="/favicon.ico" />
+   <meta name='description' content='Pagina de contact' /> 
 </Head>
+
+
 
 {/*     
      <h1 className={styles.title}>Suntem mereu încântați să auzim de la tine !</h1>

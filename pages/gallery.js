@@ -22,9 +22,13 @@ const Gallery = () => {
 <>
 
 <Head>
-  <title> YourMobil | Proiecte </title>
-   <meta name='keywords' content='Proiecte' />
+  <title> YourMobila | Proiecte </title>
+   <meta name='keywords' content='Proiecte mobila fotografii' />
+   <link rel="icon" href="/favicon.ico" />
+   <meta name='description' content='Galereie cu proiectele realizate' /> 
 </Head>
+
+
 
 
 <div className={styles.container}>

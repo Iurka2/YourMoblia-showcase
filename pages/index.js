@@ -62,8 +62,10 @@ export default function Home({isVisible }) {
    <>
 
 <Head>
-  <title> YourMobil | Acasă </title>
+  <title> YourMobila | Acasă </title>
    <meta name='keywords' content='Mobila la comanda' />
+   <link rel="icon" href="/favicon.ico" />
+   <meta name='description' content='Mobila la comandă pentru tine și familia ta' /> 
 </Head>
 
 

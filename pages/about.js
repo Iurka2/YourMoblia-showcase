@@ -60,9 +60,12 @@ const About = () => {
 
     <>
 <Head>
-  <title> YourMobil | Despre Noi </title>
-   <meta name='keywords' content='Despre noi' />
+  <title> YourMobila | Despre Noi </title>
+   <meta name='keywords' content='About us depspre noi cine suntem' />
+   <link rel="icon" href="/favicon.ico" />
+   <meta name='description' content='Cine e în spatele comapniei' /> 
 </Head>
+
 
 <ParallaxBanner style={{ aspectRatio: '2 / 1' }}>
   <ParallaxBannerLayer image="/aboutImg.jpg" speed={-10} />
