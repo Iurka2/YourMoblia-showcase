@@ -60,7 +60,7 @@ export default function Home({isVisible }) {
 
   return (
    <>
-
+{/* research seo and add mobila la comandă brasov */}
 <Head>
   <title> YourMobila | Acasă </title>
    <meta name='keywords' content='Mobila la comanda' />
