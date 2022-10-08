@@ -28,7 +28,7 @@
 .title{
   font-size: 5.5vw;
   line-height: 110%;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   letter-spacing: 3px;
  
 
@@ -70,7 +70,7 @@ object-fit: cover;
 }
 
 .img_text{
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   grid-column: 1 / span 3;
   grid-row: 1/1;
   font-size: 4vw;
@@ -100,7 +100,7 @@ object-fit: cover;
   background: none;
 	border: none;
   font-size: 2vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   font-weight: bold;
   justify-self: start;
   margin-left: 24px;
@@ -134,7 +134,7 @@ align-items: center;
 
 .mobTitle{
   padding-left: 24px;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   font-size: 3vw;
   letter-spacing: 2px;
 
@@ -185,7 +185,7 @@ padding-top: 5%;
     .title{
       font-size: 10vw;
       line-height: 110%;
-      font-family: "Gambarino", sans-serif;
+      font-family: "Gambarino-Regular", sans-serif;
       letter-spacing: 3px;
  
     
@@ -225,7 +225,7 @@ align-items: center;
 
 .mobTitle{
   padding-left: 14px;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   font-size: 24px;
   letter-spacing: 2px;
 

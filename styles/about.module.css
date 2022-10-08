@@ -42,7 +42,7 @@
 }
 
 .text_nr{
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   font-size: 3vh;
 }
 
@@ -53,7 +53,7 @@
   background: none;
 	border: none;
   font-size: 1.5vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   font-weight: bold;
   justify-self: end;
 
@@ -129,7 +129,7 @@ align-self: center;
   align-items: center;
   font-size: 5vw;
   color: #FBFEF9;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 
 }
 
@@ -308,7 +308,7 @@ border-radius: 5px;
     background: none;
     border: none;
     font-size: 16px;
-    font-family: "Gambarino", sans-serif;
+    font-family: "Gambarino-Regular", sans-serif;
     font-weight: bold;
     justify-self: end;
   

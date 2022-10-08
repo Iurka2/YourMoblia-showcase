@@ -109,7 +109,7 @@ object-fit: cover;
   grid-column: 6/ span 2;
   grid-row: 2/2 ;
  font-size: 9vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 
 
 }
@@ -118,7 +118,7 @@ object-fit: cover;
   grid-column: 1 / span 4 ;
   grid-row: 11/ span 1;
   font-size: 15vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 
 
   align-self: center;
@@ -130,7 +130,7 @@ object-fit: cover;
   grid-row: 20/ span 2;
 font-size: 10vw;
 padding-left: 5%;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 
 }
 
@@ -138,7 +138,7 @@ padding-left: 5%;
   grid-column: 6 / span 2;
   grid-row: 24/ span 1 ;
   font-size: 20vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 
 } 
 
@@ -148,7 +148,7 @@ padding-left: 5%;
   font-size: 11vw;
  align-self: flex-start;
  justify-self: flex-start;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 
 } 
 

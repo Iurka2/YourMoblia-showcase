@@ -2,7 +2,7 @@
 
 .heding{
   font-size: 5vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   letter-spacing: 5px;
   padding-top: 20px;
 }
@@ -22,7 +22,7 @@
 }
 
 .title{
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   letter-spacing: 2px;
   font-size: 3vw;
 }
@@ -38,7 +38,7 @@
 
   .heding{
     font-size: 9vw;
-    font-family: "Gambarino", sans-serif;
+    font-family: "Gambarino-Regular", sans-serif;
     letter-spacing: 1px;
     padding-top: 20px;
   }
@@ -50,7 +50,7 @@
   }
   
   .title{
-    font-family: "Gambarino", sans-serif;
+    font-family: "Gambarino-Regular", sans-serif;
     
     font-size: 5vw;
   }

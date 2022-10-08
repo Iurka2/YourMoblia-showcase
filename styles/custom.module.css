@@ -2,7 +2,7 @@
 .title{
   font-size: 4.25vw;
 
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   letter-spacing: 3px;
 
 }
@@ -51,7 +51,7 @@ align-items: flex-start;
   .title{
     font-size: 4.25vh;
   
-    font-family: "Gambarino", sans-serif;
+    font-family: "Gambarino-Regular", sans-serif;
     letter-spacing: 3px;
   
   }

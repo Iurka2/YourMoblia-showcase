@@ -10,7 +10,7 @@
 .title{
   font-size: 4vw;
   line-height: 110%;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
 }
 
 .paragraph{
@@ -123,7 +123,7 @@
   background: none;
 	border: none;
   font-size: 2vw;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   text-align: start;
 
  
@@ -181,7 +181,7 @@
   .title{
     font-size: 4vh;
     
-    font-family: "Gambarino", sans-serif;
+    font-family: "Gambarino-Regular", sans-serif;
   }
 
   .paragraph{
@@ -307,7 +307,7 @@ margin-bottom: 50px;
   background: none;
 	border: none;
   font-size: 3vh;
-  font-family: "Gambarino", sans-serif;
+  font-family: "Gambarino-Regular", sans-serif;
   text-align: start;
 
  
