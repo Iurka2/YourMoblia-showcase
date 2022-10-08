@@ -66,6 +66,7 @@ export default function Home({isVisible }) {
    <meta name='keywords' content='Mobila la comanda' />
    <link rel="icon" href="/favicon.ico" />
    <meta name='description' content='Mobila la comandă pentru tine și familia ta' /> 
+   <meta name="google-site-verification" content="0T9quiywXv8bnuvwBD8IBlTaih4ZW6aWj0nJjUn7SgY" />
 </Head>
 
 
