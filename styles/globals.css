@@ -146,12 +146,30 @@ body {
 body{
   margin: 0 48px 0 48px;
 }
+.x{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+
+ color: white;
+ border: #FBFEF9;
+  cursor: pointer;
+  font-size: 2rem;
+ }
+
 
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
 
 .NavBar{
 display: flex;
@@ -195,10 +213,6 @@ font-size: 1.5vw;
   font-family: "Gambarino-Regular", sans-serif;
   font-weight: bold;
   min-width: 200px;
-  
-  
-  
- 
 }
 
 .hover-underline-animation {
@@ -300,23 +314,27 @@ font-size: 1.5vw;
 }
 
 .lab{
-  width: 30vw;
-  height: 0.5vh;
-  padding: 12px 30px 12px 0px;
-  background-color: #FBFEF9;
+  background: none;
   border: none;
-  border: 1px solid black;
-  font-family: "Plus Jakarta Sans" , sans-serif;
+  color:var(--white);
+  border: 1px solid #FBFEF9;
+  padding: 20px;
+  font-size: 2rem;
+  width: 90%;
+  margin-top: 24px;
 }
 
 
 .lab2{
-  width: 30vw;
-  height: 10vh;
-  padding: 12px 30px 12px 0px;
-  background-color: #FBFEF9;
-  border: 1px solid black;
-  font-family: "Plus Jakarta Sans" , sans-serif;
+  background: none;
+  border: none;
+  color:var(--white);
+  border: 1px solid #FBFEF9;
+  padding: 20px;
+  font-size: 2rem;
+  width: 90%;
+  margin-top: 24px;
+  min-height: 20vh;
 }
 
 
