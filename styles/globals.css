@@ -177,10 +177,25 @@ align-items: baseline;
 justify-content: space-between;
 margin-bottom: 100px;
 margin-top: 24px;
+}
 
 
+.swiper-button-next{
+  color: #FF6E00 !important; 
+ 
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+ background-color:var(--orange);
+}
+
+.swiper-pagination {
+ bottom:2% !important;
+}
 
 
+.swiper-button-prev{
+ color: #FF6E00 !important ; 
 }
 
 .logo{
