@@ -2,20 +2,30 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 
 const variants = {
-  in: {
-    opacity: 1,
-  
+  hidden: {
+    y:-150,
+  },
+
+  visible: {
+    y: 0,
     transition: {
-
-
+      damping: 60,
+      type: "spring",
+      stiffness: 280, 
+     
+      
     }
   },
-  out: {
-    opacity: 0,
 
- 
+  out:{
+    opacity:0,
+    transition: {
+
+      
+    }
   }
-};
+}
+
 
 
 
@@ -33,8 +43,8 @@ const TransitionEffect = ({ children }) => {
         <motion.div
           key={asPath}
           variants={variants}
-          animate="in"
-          initial="out"
+          animate="visible"
+          initial="hidden"
           exit="out"
        
         >

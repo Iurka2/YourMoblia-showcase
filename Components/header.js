@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import logo from '../public/logoog.svg'
 import { useState } from 'react';
 import 'react-modern-drawer/dist/index.css'
-
+import { FiX } from "react-icons/fi";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useForm } from 'react-hook-form';
@@ -104,25 +104,25 @@ const Header = () => {
                 size='35vw'
                 style={{ 
                   backgroundColor: '#191716',
-           
-                  
                 }}>
               
-              
+ <div className='x'  onClick={toggleDrawer} >
+     <FiX />
+    </div>
 
               <div className='formContainer2'>
-<h1 className="subtitle" >Suntem mereu încântați<br /> să auzim de la tine !</h1>
+<h1 className="subtitle" >Luați legătura</h1>
 <form ref={form} onSubmit={handleSubmit(onSubmit)} className="formContainer" >
-        <label className='formText' >Nume</label>
-        <input type="text" {...register("user_name", {required: "Nume necesar", minLength: 3})}  className='lab' />
+ 
+<input type="text" placeholder="Nume" {...register("user_name", {required: "Nume necesar", minLength: 3})}  className="lab" />
         <span className="erorMesage">{errors.user_name?.message}</span>
 
-        <label className='formText'>Email</label>
-        <input type="email" {...register("user_email", {required: 'Email necesar', maxLength: 100, pattern: /^\S+@\S+$/i})}  className='lab' />
+
+        <input type="email" placeholder="Email" {...register("user_email", {required: 'Email necesar', maxLength: 100, pattern: /^\S+@\S+$/i})}  className="lab" />
         <span className="erorMesage">{errors.user_email?.message}</span>
 
-        <label className='formText'>Messaj</label>
-        <textarea  {...register("message", {required: 'Lasă un mesaj'})} type="text" placeholder="Salut, aș vrea să întreb.." className='lab2' />
+      
+         <textarea  {...register("message", {required: 'Lasă un mesaj'})} type="text" placeholder="Lasă un mesaj" className="lab2" />
         <span className="erorMesage">{errors.message?.message}</span>
 
         <input type="submit" value="Trimete" className="submit" />
